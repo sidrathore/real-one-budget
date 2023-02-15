@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:real_one_budget/login_page.dart';
 import 'package:real_one_budget/splash_screen.dart';
 
 void main() {
@@ -7,7 +8,7 @@ void main() {
 
     routes: {
       '/': (context) => SplashScreen(),
-    //  '/loginpage': (context) => LoginPage(),
+     '/loginpage': (context) => LoginPage(),
     //  '/otppage': (context) => OTPPage(),
     //  '/homepage': (context) => HomePage(),
     //  '/signup': (context) => SignUp(),
