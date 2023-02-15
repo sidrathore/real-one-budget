@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:real_one_budget/splash_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    // home: SplashScreen(),
+
+    routes: {
+      '/': (context) => SplashScreen(),
+    //  '/loginpage': (context) => LoginPage(),
+    //  '/otppage': (context) => OTPPage(),
+    //  '/homepage': (context) => HomePage(),
+    //  '/signup': (context) => SignUp(),
+    },
+  ));
 }
 
 class MyApp extends StatelessWidget {
